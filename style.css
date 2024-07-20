@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+   width: 100%; 
+   height: 100vh;
+   background-image: url(4k-moon.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 300px;
+    mix-blend-mode: difference;
+}
